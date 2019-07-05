@@ -1,0 +1,56 @@
+.section4{
+	background: url(../img/section4.jpg) no-repeat;
+	background-position: 23rem bottom;
+	background-size: 100%;
+		@media screen and (min-width: 1350px){
+			background-position: 23rem 0;
+		}
+	.container{
+		padding: 15rem 4rem 17rem;
+	}
+	&__text{
+		max-width: 38rem;
+		padding: 0 2rem;
+		.title2{
+			line-height: 4.5rem;
+			text-align: left;
+			padding-bottom: 3rem;
+		}
+		p{
+			font-size: 2rem;
+			line-height: 3rem;
+			color: #1a1a1a;
+		}
+	}
+}
+
+@media screen and (max-width: 992px){
+.section4{
+	background-position: 20rem bottom;
+	.container{
+		padding-top: 10rem;
+	}
+	&__text{
+		max-width: 49rem;
+	}
+}
+}
+@media screen and (max-width: 768px){
+.section4{
+	background-position: 9rem bottom;
+	background-size: 410px auto;
+
+	.container{
+		padding: 5rem 3rem 27rem;
+	}
+	&__text{
+		max-width: 100%;
+		padding: 0;
+	}
+}
+}
+@media screen and (max-width: 430px){
+.section4{
+	background-position: 2rem bottom;
+}	
+}

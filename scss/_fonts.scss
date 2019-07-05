@@ -1,0 +1,112 @@
+@font-face {font-family: "HelveticaNeueBold";
+    font-display: swap;
+    src: url("../fonts/HelveticaNeueCyr-Bold.eot");
+    src: url("../fonts/HelveticaNeueCyr-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/HelveticaNeueCyr-Bold.woff2") format("woff2"),
+    url("../fonts/HelveticaNeueCyr-Bold.woff") format("woff"),
+    url("../fonts/HelveticaNeueCyr-Bold.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {font-family: "NimbusSansTBold";
+    display: swap;
+    font-weight: normal;
+    font-style: normal;
+    src: url("../fonts/NimbusSansTBoldCondensed.eot");
+    src: url("../fonts/NimbusSansTBoldCondensed.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/NimbusSansTBoldCondensed.woff2") format("woff2"),
+    url("../fonts/NimbusSansTBoldCondensed.woff") format("woff"),
+    url("../fonts/NimbusSansTBoldCondensed.ttf") format("truetype"),
+     url("../fonts/NimbusSansTBoldCondensed.svg#NimbuSanTBolCon") format("svg");
+}
+@font-face {font-family: "HelveticaNeueCyr-Roman";
+    font-display: swap;
+    src: url("../fonts/HelveticaNeueCyr-Roman.eot");
+    src: url("../fonts/HelveticaNeueCyr-Roman.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/HelveticaNeueCyr-Roman.woff2") format("woff2"),
+    url("../fonts/HelveticaNeueCyr-Roman.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {font-family: "HelveticaNeueUltraLight";
+    display: swap;
+    font-weight: normal;
+    font-style: normal;
+    src: url("../fonts/HelveticaNeueUltraLight.eot");
+    src: url("../fonts/HelveticaNeueUltraLight.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/HelveticaNeueUltraLight.woff2") format("woff2"),
+    url("../fonts/HelveticaNeueUltraLight.woff") format("woff"),
+    url("../fonts/HelveticaNeueUltraLight.ttf") format("truetype"),
+    url("../fonts/HelveticaNeueUltraLight.svg#Helvetica Neue") format("svg");
+}
+@font-face {font-family: "HelveticaNeue45Light";
+    display: swap;
+    font-weight: normal;
+    font-style: normal;
+    src: url("../fonts/HelveticaNeue45Light.eot");
+    src: url("../fonts/HelveticaNeue45Light.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/HelveticaNeue45Light.woff2") format("woff2"),
+    url("../fonts/HelveticaNeue45Light.woff") format("woff"),
+    url("../fonts/HelveticaNeue45Light.ttf") format("truetype"),
+    url("../fonts/HelveticaNeue45Light.svg#Helvetica Neue LT Std") format("svg");
+}
+
+@font-face {font-family: "TahomaRegular";
+    display: swap;
+    font-weight: normal;
+    font-style: normal;
+    src: url("../fonts/TahomaRegular.eot");
+    src: url("../fonts/TahomaRegular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/TahomaRegular.woff2") format("woff2"),
+    url("../fonts/TahomaRegular.woff") format("woff"),
+    url("../fonts/TahomaRegular.ttf") format("truetype"),
+    url("../fonts/TahomaRegular.svg#Tahoma") format("svg");
+}
+
+$font-bold1: "HelveticaNeueBold", sans-serif;
+$font-bold2: "NimbusSansTBold", sans-serif;
+
+$font1: "HelveticaNeueCyr-Roman", sans-serif;
+$font2: "HelveticaNeueUltraLight", sans-serif;
+$font3: "HelveticaNeue45Light", sans-serif;
+
+
+
+
+
+
+
+
+
+
+@font-face {
+  font-family: 'fontello';
+  src: url('../fonts/fontello.eot?50882287');
+  src: url('../fonts/fontello.eot?50882287#iefix') format('embedded-opentype'),
+       url('../fonts/fontello.woff2?50882287') format('woff2'),
+       url('../fonts/fontello.woff?50882287') format('woff'),
+       url('../fonts/fontello.ttf?50882287') format('truetype'),
+       url('../fonts/fontello.svg?50882287#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+ 
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1em;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+ 
+.icon-left:before { content: '\e800'; } /* '' */
+.icon-right:before { content: '\e803'; } /* '' */

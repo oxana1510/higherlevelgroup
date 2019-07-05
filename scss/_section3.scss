@@ -1,0 +1,39 @@
+.section3{
+	background: url(../img/slider-book-bg.jpg) center no-repeat;
+	background-size: cover;
+	color: #fff;
+	.container{
+		padding: 9rem 5rem;
+	}
+	.title2{
+		padding-bottom: 4.5rem;
+	}
+	.slider2,
+	.slider2-mob{
+		img{
+			border-radius: 1rem;
+			background: #fff;
+			border: 2rem solid #fff;
+			margin: auto auto 4rem;
+		}
+	}
+	.slider2-mob{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 768px){
+.section3 .container{
+	padding: 5rem;
+}
+}
+@media screen and (max-width: 576px){
+.section3{
+	.slider2{
+		display: none;
+	}
+	.slider2-mob{
+		display: block;
+	}
+}
+}

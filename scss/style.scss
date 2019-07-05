@@ -1,0 +1,74 @@
+@import "fonts";
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+              box-sizing: border-box;
+}
+:root{
+	font-size: 10px;
+}
+body{
+	overflow-x: hidden;
+}
+.wrapper{
+	min-width: 320px;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	font-family: $font1;	
+	overflow-x: hidden;
+	color :#000;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+h1, 
+h2,
+h3,
+h4{
+	font-weight: normal;
+}
+.container{
+	margin: 0 auto;
+	max-width: 1280px;
+	width: 100%;
+}
+.title2{
+	font: 3.8rem $font3;
+	text-align: center;
+}
+.bth-link{
+	display: block;
+	text-align: center;
+	background: #e2041a;
+	font: 2.4rem $font-bold1;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 2rem 3rem;
+	&:hover{
+		outline: 0.2rem solid #e2041a;
+		background: #fff;
+		color: #e2041a;
+	}
+}
+@media screen and (max-width: 768px){
+:root{
+	font-size: 9px;
+}
+.bth-link{
+	font-size: 2rem;
+}
+}
+@import "header";
+@import "section1";
+@import "section2";
+@import "section3";
+@import "section4";
+@import "section5";
+@import "testimonials";
+@import "blog";
+@import "section6";
+@import "footer";

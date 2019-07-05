@@ -1,0 +1,29 @@
+.section2{
+	background: #10c2d2;
+	.container{
+		padding: 8.5rem 5rem;
+		color: #fff;
+	}
+	.title2{
+		padding-bottom: 5rem;
+	}
+	.slider{
+		.photo-block{
+			text-align: center;
+			padding: 1.5rem 0;
+			img{
+				border-radius: 50%;
+				margin: auto;
+			}
+			p{
+				font-size: 1.8rem;
+				padding-top: 1.3rem;
+			}
+		}
+	}
+}
+@media screen and (max-width: 768px){
+.section2 .container{
+	padding: 5rem;
+}
+}

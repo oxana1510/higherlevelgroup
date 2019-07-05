@@ -1,0 +1,42 @@
+.footer{
+	background: url(../img/bg-footer.jpg) center no-repeat;
+	background-size: cover;
+	color: #fff;
+	.container{
+		position: relative;
+		max-width: 114rem;
+		padding: 11rem 3rem;
+	}
+	.title2{
+		text-align: left;
+		padding-bottom: 2rem;
+	}
+	p{
+		font-size: 2rem;
+		a{
+			color: #4ac6f4;
+			font-family: $font-bold1;
+			&:hover{
+				color: darken(#4ac6f4, 20%);
+				text-decoration: underline;
+			}
+		}
+	}
+	img{
+		position: absolute;
+		right: 3rem;
+		top: 5.6rem;
+	}
+}
+
+@media screen and (max-width: 768px){
+.footer{
+	.container{
+		padding: 5rem 3rem;
+	}
+	img{
+		width: 15.4rem;
+		height: 12.9rem;
+	}
+}
+}

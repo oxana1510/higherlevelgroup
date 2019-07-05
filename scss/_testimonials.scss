@@ -1,0 +1,136 @@
+.testimonials{
+	background: #fff;
+	.container{
+		padding: 9rem 2rem;
+		max-width: 91.5rem;
+	}
+	.title2{
+		padding-bottom: 7rem;
+	}
+	.bg-line{
+		&:after,
+		&:before{
+			border-bottom: 12vw solid #fff;
+		}
+	}
+	&__item{
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: start;
+		    -ms-flex-pack: start;
+		        justify-content: flex-start;
+		.testimonials__text{
+			padding: 1.1rem;
+			max-width: 37.4rem;
+			width: 100%;
+			&-name{
+				color: #2589a9;
+				font: 1.5rem/2.5rem $font-bold1;
+			}
+			&-data{
+				color: #7996a4;
+				font: 1.1rem/1.5rem "TahomaRegular", sans-serif;
+			}
+			&-p{
+				letter-spacing: 0.034rem;
+				line-height: 2.7rem;
+				color: #777;
+				font-size: 1.7rem;
+			}
+			&:first-child{
+				text-align: right;
+			}
+		}
+		&-img{
+			position: relative;
+			width: 12.9rem;
+			height: 12.9rem;
+			border-radius: 50%;
+			img{
+				position: relative;
+				z-index: 3;
+				width: 12.9rem;
+				height: 13rem;
+				overflow: hidden;
+				border-radius: 50%;
+				border: 1.2rem solid #fff;
+			}
+			&:after{
+				position: absolute;
+				left: 0;
+				top: 0;
+				z-index: 3;
+				content: "";
+				width: 12.9rem;
+				height: 12.9rem;
+				border-radius: 50%;
+				border: 0.1rem solid #7fc9d1;
+			}
+			&:before{
+				position: absolute;
+				z-index: 2;
+				left: 6.45rem;
+				content: "";
+				height: 42.1rem;
+				width: 0.1rem;
+				border-left: 0.1rem solid #7fc9d1;
+			} 
+		}
+		&:last-child{
+			-webkit-box-pack: end;
+			    -ms-flex-pack: end;
+			        justify-content: flex-end;
+			.testimonials__item-img:before{
+				display: none;
+			}
+		}
+
+	}
+}
+
+@media screen and (max-width: 925px){
+.testimonials__item{
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	&:last-child {
+	    -webkit-box-pack: center;
+	        -ms-flex-pack: center;
+	            justify-content: center;
+	    padding-top: 2rem;
+	}
+	&-img:before{
+		display: none;
+	}
+}	
+}
+@media screen and (max-width: 768px){
+.testimonials{
+	.container{
+		padding: 5rem 2rem;
+	}
+	.title2{
+		padding-bottom: 5rem;
+	}
+}
+}
+@media screen and (max-width: 480px){
+.testimonials__item{
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	&-img{
+		-webkit-box-ordinal-group: 0;
+		    -ms-flex-order: -1;
+		        order: -1;
+	}
+	.testimonials__text:first-child{
+		text-align: left;
+	}
+}
+}
